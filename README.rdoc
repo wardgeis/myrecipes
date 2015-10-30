@@ -1,3 +1,14 @@
+testing spec for chefs:
+chefname: string
+email:string
+
+-  chefname must be present
+-  chefname must be between 3 characters 40 characters in length
+-  email must be present
+-  email must be unique (since we'll use this for logins later)
+-  email must be valid
+
+
 Testing specs for recipes:
 name :string
 summary :text
